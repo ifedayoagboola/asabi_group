@@ -5,7 +5,7 @@ import { InfoSection } from "../../components";
 const Home = () => {
   return (
     <div>
-      <InfoSection />
+      <InfoSection {...homeObjOne} />
     </div>
   );
 };

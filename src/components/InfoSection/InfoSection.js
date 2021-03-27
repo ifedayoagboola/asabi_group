@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Container, Button } from "../../globalStyles";
+import f1 from "../../img/img-1.svg";
 import {
   InfoSec,
   InfoRow,
@@ -9,6 +10,8 @@ import {
   TopLine,
   Heading,
   Subtitle,
+  ImgWrapper,
+  Img,
 } from "./InfoSection.elements";
 
 const InfoSection = ({
@@ -22,6 +25,9 @@ const InfoSection = ({
   headline,
   lightText,
   topLine,
+  img,
+  alt,
+  start,
 }) => {
   return (
     <>
@@ -39,6 +45,11 @@ const InfoSection = ({
                   </Button>
                 </Link>
               </TextWrapper>
+            </InfoColumn>
+            <InfoColumn>
+              <ImgWrapper start={start}>
+                <Img src={f1} alt={alt} />
+              </ImgWrapper>
             </InfoColumn>
           </InfoRow>
         </Container>

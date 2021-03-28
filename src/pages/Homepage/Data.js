@@ -1,3 +1,4 @@
+import { img2 } from "../../images/images";
 export const homeObjOne = {
   primary: true,
   lightBg: false,
@@ -11,7 +12,7 @@ export const homeObjOne = {
     "Asabi Investments believe in the role MSMEs play in driving the next wave of economic growth in many African countries and the creation of sustainable employment for the burgeoning youth population in the continent.",
   buttonLabel: "Get Started",
   imgStart: "",
-  img: require("../../images/svg-1.svg"),
+  img: <img src={require("../../images/pic2.jpg")} alt="" />,
   alt: "Image",
   start: "",
 };
@@ -23,12 +24,11 @@ export const homeObjTwo = {
   lightText: true,
   lightTextDesc: true,
   topLine: "Asabi Community Health Centre",
-  headline: "Extremely quick onboarding process",
+  headline: "•	ACHC sliding scale pricing",
   description:
-    "Once you've joined, our team of specialist will reach out to you and get you set up in minutes.",
-  buttonLabel: "Learn More",
+    "subsidizing the lower income ones creates a conducive platform for the growth and access to equitable healthcare",
   imgStart: "",
-  img: require("../../images/svg-2.svg"),
+  img: "",
   alt: "Vault",
   start: "",
 };
@@ -40,13 +40,12 @@ export const homeObjThree = {
   lightText: false,
   lightTextDesc: false,
   topLine: "Asabi Community Health Centre",
-  headline:
-    "Ultra helped me increase my revenue by over 3X in less than 3 months!",
+  headline: "bridging the primary healthcare gap in Nigeria",
   description:
-    "Asabi Community Health Centre (ACHC) was setup to bridge the healthcare gap in Nigeria with a core focus on improving community health outcomes amongst low-income and under resourced neighbourhoods",
+    "The Asabi Community Health Centre is set to provide basic medical care targeted at low-income residents of under resourced communities in Ibadan, Nigeria.",
   buttonLabel: "View Case Study",
   imgStart: "start",
-  img: require("../../images/profile.jpg"),
+  img: { img2 },
   alt: "Vault",
   start: "true",
 };

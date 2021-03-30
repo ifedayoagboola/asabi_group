@@ -24,6 +24,23 @@ export const Container = styled.div`
     padding-left: 30px;
   }
 `;
+export const Container2 = styled.div`
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 50px;
+  padding-left: 50px;
+  line-height: 1.5rem;
+
+  @media screen and (max-width: 991px) {
+    padding-right: 30px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+`;
 
 export const Button = styled.button`
   border-radius: 4px;

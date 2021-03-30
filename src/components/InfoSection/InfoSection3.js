@@ -83,6 +83,14 @@ const Health = styled.div`
   span {
     color: #037fff;
   }
+  @media (max-width: 1300px) {
+    display: block;
+    margin: 0;
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
 `;
 const Img = styled.div``;
 const AbtHealth = styled.div`
@@ -104,6 +112,14 @@ const Investments = styled.div`
   }
   span {
     color: #037fff;
+  }
+  @media (max-width: 1300px) {
+    display: block;
+    margin: 0;
+    width: 100%;
+    img {
+      width: 100%;
+    }
   }
 `;
 const Img2 = styled.div``;

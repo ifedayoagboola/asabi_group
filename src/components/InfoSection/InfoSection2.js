@@ -48,9 +48,6 @@ function InfoSection({
               </TextWrapper>
             </InfoColumn>
             <InfoColumn>
-              {/* <ImgWrapper start={start}>
-                <Img src="" alt="" />
-              </ImgWrapper> */}
               <Info>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Consectetur libero provident fugiat. Quod dolore quae odio ex

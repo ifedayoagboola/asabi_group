@@ -16,12 +16,9 @@ const ServiceSection = () => {
             The fund is invested in taking a Pan-African approach and invest in
             MSMEs from Kenya, Uganda, Ghana, Nigeria, Zimbabwe, Ethiopia,
             Franco-phone West Africa and South Africa. These businesses range in
-            size and industry focus.Asabi Investments invests in high growth
+            size and industry focus. Asabi Investments invests in high growth
             MSMEs driving impact in some of the fastest growing industries and
-            looking to scale across Africa. Asabi Investments takes a holistic
-            approach in sourcing deals and investments where a business is
-            assessed based on the weighting of its financial viability alongside
-            environmental and community development impact.
+            looking to scale across Africa.
           </p>
         </Header>
         <Service>
@@ -64,8 +61,8 @@ const House = styled.div`
   /* background-color: #191d28; */
   background-image: linear-gradient(
       to bottom,
-      rgba(245, 246, 252, 0.52),
-      rgba(16, 21, 34, 0.73)
+      rgba(16, 21, 34, 0.73),
+      rgba(245, 246, 252, 0.52)
     ),
     url(${pic3});
   background-size: cover;
@@ -97,7 +94,7 @@ const Header = styled.div`
 const Service = styled.div`
   display: flex;
   padding: 5rem 0;
-  justify-content: space-between;
+  justify-content: space-around;
 
   @media (max-width: 1300px) {
     display: block;
@@ -109,7 +106,7 @@ const Service = styled.div`
 const Content = styled.div`
   padding: 1rem;
   background: rgba(16, 21, 34, 0.7);
-  /* border: 3px solid #fff; */
+
   h5 {
     font-size: 1.6rem;
     font-weight: bold;

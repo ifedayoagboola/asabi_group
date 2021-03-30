@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import pic4 from "../../images/pic4.jpg";
+import inv6 from "../../images/inv2.jpg";
 
 export const InfoSec = styled.div`
   color: #fff;
@@ -11,6 +12,18 @@ export const InfoSec = styled.div`
       rgba(16, 21, 34, 0.73)
     ),
     url(${pic4});
+  background-size: cover;
+`;
+export const InfoSec2 = styled.div`
+  color: #fff;
+  padding: 80px 0;
+  background: ${({ lightBg }) => (lightBg ? "#fff" : "#101522")};
+  background-image: linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.52),
+      rgba(16, 21, 34, 0.73)
+    ),
+    url(${inv6});
   background-size: cover;
 `;
 
@@ -52,6 +65,14 @@ export const ImgWrapper = styled.div`
   max-width: 555px;
   display: flex;
   justify-content: ${({ start }) => (start ? "flex-start" : "flex-end")};
+`;
+export const Info = styled.div`
+  max-width: 555px;
+  background: #fff;
+  opacity: 0.8;
+  color: #000;
+  padding: 2rem;
+  margin-bottom: 1rem;
 `;
 
 export const TopLine = styled.div`

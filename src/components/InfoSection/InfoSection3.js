@@ -17,9 +17,6 @@ function InfoSection3({ lightBg }) {
         <Container>
           <House>
             <Health>
-              <Img>
-                <img src={img3} alt="" />
-              </Img>
               <AbtHealth>
                 <h3>
                   Asabi Community <span>Healthcare</span> Centre
@@ -32,6 +29,9 @@ function InfoSection3({ lightBg }) {
                   communities in Ibadan, Nigeria.
                 </p>
               </AbtHealth>
+              <Img>
+                <img src={img3} alt="" />
+              </Img>
             </Health>
             <Investments>
               <Img2>
@@ -58,7 +58,7 @@ function InfoSection3({ lightBg }) {
 
 const InfoSec3 = styled.div`
   /* background-image: url(${pic3}); */
-  background: #191d28;
+  background: #fff;
   background-size: cover;
   width: 100%;
   height: 100vh;
@@ -71,16 +71,14 @@ const House = styled.div`
 `;
 const Health = styled.div`
   display: flex;
-
-  color: #a9b3c1;
+  color: #101522;
   margin: 5rem 0 2rem -200px;
   align-items: center;
   justify-content: center;
   width: 65%;
-  background: rgba(16, 21, 34, 0.7);
-  border: 3px solid #fff;
+  border-left: 3px solid #0069b0;
   h3 {
-    color: #fff;
+    color: #101522;
   }
   span {
     color: #037fff;
@@ -95,15 +93,14 @@ const AbtHealth = styled.div`
 `;
 const Investments = styled.div`
   display: flex;
-  color: #a9b3c1;
+  color: #101522;
   margin: 0 -300px 2rem 0;
   align-items: center;
   justify-content: center;
   width: 65%;
-  background: rgba(16, 21, 34, 0.7);
-  border: 3px solid #fff;
+  border-right: 3px solid #0069b0;
   h3 {
-    color: #fff;
+    color: #101522;
   }
   span {
     color: #037fff;

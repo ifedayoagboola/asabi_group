@@ -3,13 +3,14 @@ import img2 from "../../images/pic2.jpg";
 import { Link } from "react-router-dom";
 import { Container, Button } from "../../globalStyles";
 import {
-  InfoSec,
+  InfoSec2,
   InfoRow,
   InfoColumn,
   TextWrapper,
   TopLine,
   Heading,
   Subtitle,
+  Info,
   ImgWrapper,
   Img,
 } from "./InfoSection.elements";
@@ -31,7 +32,7 @@ function InfoSection({
 }) {
   return (
     <>
-      <InfoSec lightBg={lightBg}>
+      <InfoSec2 lightBg={lightBg}>
         <Container>
           <InfoRow imgStart={imgStart}>
             <InfoColumn>
@@ -47,13 +48,28 @@ function InfoSection({
               </TextWrapper>
             </InfoColumn>
             <InfoColumn>
-              <ImgWrapper start={start}>
+              {/* <ImgWrapper start={start}>
                 <Img src="" alt="" />
-              </ImgWrapper>
+              </ImgWrapper> */}
+              <Info>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consectetur libero provident fugiat. Quod dolore quae odio ex
+                beatae. Dolor, vel!
+              </Info>
+              <Info>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Dolores dicta quos sint modi deleniti id delectus omnis quae
+                velit earum!
+              </Info>
+              <Info>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+                ipsam voluptatibus eius sequi! Quaerat labore, delectus mollitia
+                doloremque perspiciatis corrupti.
+              </Info>
             </InfoColumn>
           </InfoRow>
         </Container>
-      </InfoSec>
+      </InfoSec2>
     </>
   );
 }

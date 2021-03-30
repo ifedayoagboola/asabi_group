@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
 import { Button } from "../../globalStyles";
+import logo from "../../images/logo1.png";
 import {
   Nav,
   NavbarContainer,
@@ -42,8 +43,7 @@ function Navbar() {
         <Nav>
           <NavbarContainer>
             <NavLogo to="/" onClick={closeMobileMenu}>
-              <NavIcon />
-              ASABI
+              <img src={logo} alt="" />
             </NavLogo>
             <MobileIcon onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
@@ -56,18 +56,18 @@ function Navbar() {
               </NavItem>
               <NavItem>
                 <NavLinks to="/services" onClick={closeMobileMenu}>
-                  Services
+                  About
                 </NavLinks>
               </NavItem>
               <NavItem>
                 <NavLinks to="/products" onClick={closeMobileMenu}>
-                  Products
+                  Contact
                 </NavLinks>
               </NavItem>
               <NavItemBtn>
                 {button ? (
                   <NavBtnLink to="/sign-up">
-                    <Button primary>SIGN UP</Button>
+                    <Button primary>Join Us</Button>
                   </NavBtnLink>
                 ) : (
                   <NavBtnLink to="/sign-up">

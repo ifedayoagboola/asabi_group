@@ -1,4 +1,3 @@
-import { img2 } from "../../images/images";
 export const homeObjOne = {
   primary: true,
   lightBg: false,
@@ -24,7 +23,7 @@ export const homeObjTwo = {
   lightText: true,
   lightTextDesc: true,
   topLine: "Asabi Community Health Centre",
-  headline: "•	ACHC sliding scale pricing",
+  headline: "ACHC sliding scale pricing",
   description:
     "subsidizing the lower income ones creates a conducive platform for the growth and access to equitable healthcare",
   imgStart: "",
@@ -45,7 +44,7 @@ export const homeObjThree = {
     "The Asabi Community Health Centre is set to provide basic medical care targeted at low-income residents of under resourced communities in Ibadan, Nigeria.",
   buttonLabel: "View Case Study",
   imgStart: "start",
-  img: { img2 },
+  img: "",
   alt: "Vault",
   start: "true",
 };

@@ -1,7 +1,7 @@
-import styled from 'styled-components';
-import { FaMagento } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
-import { Container } from '../../globalStyles';
+import styled from "styled-components";
+import { FaMagento } from "react-icons/fa";
+import { Link } from "react-router-dom";
+import { Container } from "../../globalStyles";
 
 export const Nav = styled.nav`
   background: #101522;
@@ -31,6 +31,10 @@ export const NavLogo = styled(Link)`
   font-size: 2rem;
   display: flex;
   align-items: center;
+  img {
+    height: 100px;
+    width: 120px;
+  }
 `;
 
 export const NavIcon = styled(FaMagento)`
@@ -64,7 +68,7 @@ export const NavMenu = styled.ul`
     height: 90vh;
     position: absolute;
     top: 80px;
-    left: ${({ click }) => (click ? 0 : '-100%')};
+    left: ${({ click }) => (click ? 0 : "-100%")};
     opacity: 1;
     transition: all 0.5s ease;
     background: #101522;

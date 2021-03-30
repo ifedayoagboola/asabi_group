@@ -1,5 +1,5 @@
 import React from "react";
-import img1 from "../../images/img-1.svg";
+import img1 from "../../images/img12.jpg";
 import { Link } from "react-router-dom";
 import { Container, Button } from "../../globalStyles";
 import {

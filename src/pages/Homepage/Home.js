@@ -1,17 +1,23 @@
 import React from "react";
-import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour } from "./Data";
-import { InfoSection, Pricing } from "../../components";
+import { homeObjOne, homeObjThree } from "./Data";
+import {
+  InfoSection,
+  InfoSection3,
+  InfoSection2,
+  ServiceSection,
+  Footer,
+  JoinsUs,
+} from "../../components";
 
 function Home() {
   return (
     <>
-      <InfoSection {...homeObjOne} />
       <InfoSection {...homeObjThree} />
-      <InfoSection {...homeObjTwo} />
-      {/* <Pricing /> */}
-      <InfoSection {...homeObjFour} />
+      <InfoSection3 />
+      <ServiceSection />
+      <JoinsUs />
+      <InfoSection2 {...homeObjOne} />
     </>
   );
 }
-
 export default Home;

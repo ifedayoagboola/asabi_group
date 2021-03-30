@@ -1,6 +1,7 @@
 {
   "name": "asabi_group",
   "version": "0.1.0",
+  "homepage": "https://asabi.laptopclinic.ng",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",

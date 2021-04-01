@@ -49,19 +49,19 @@ function InfoSection({
             </InfoColumn>
             <InfoColumn>
               <Info>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consectetur libero provident fugiat. Quod dolore quae odio ex
-                beatae. Dolor, vel!
+                collaborative and long term relationships with its portfolio
+                companies, industry stakeholders, government partners,
+                non-profit players with aligned interests
               </Info>
               <Info>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Dolores dicta quos sint modi deleniti id delectus omnis quae
-                velit earum!
+                We pay keen attention paid to optimization of processes where
+                things can be done much faster and better as the world evolves
+                into trends that cannot be predicted.
               </Info>
               <Info>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                ipsam voluptatibus eius sequi! Quaerat labore, delectus mollitia
-                doloremque perspiciatis corrupti.
+                As Asabi partners with entrepreneurs to fund the next generation
+                of resilient MSMEs, attention has been paid to team cohesion and
+                finding great talent.
               </Info>
             </InfoColumn>
           </InfoRow>

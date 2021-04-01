@@ -26,6 +26,10 @@ export const InfoSec2 = styled.div`
     url(${inv6});
   background-size: cover;
 `;
+export const InfoSec3 = styled.div`
+  color: #101522;
+  padding: 80px 0;
+`;
 
 export const InfoRow = styled.div`
   display: flex;
@@ -50,6 +54,30 @@ export const InfoColumn = styled.div`
     justify-content: center;
   }
 `;
+export const InfoColumn2 = styled.div`
+  max-width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  border-left: 3px solid #0467fb;
+  border-top: 3px solid #0467fb;
+  @media screen and (max-width: 768px) {
+    max-width: 100%;
+    display: block;
+  }
+`;
+export const InfoColumn3 = styled.div`
+  max-width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  border-right: 3px solid #0467fb;
+  border-bottom: 3px solid #0467fb;
+  @media screen and (max-width: 768px) {
+    max-width: 100%;
+    display: block;
+  }
+`;
 
 export const TextWrapper = styled.div`
   max-width: 540px;
@@ -72,6 +100,14 @@ export const Info = styled.div`
   opacity: 0.8;
   color: #000;
   padding: 2rem;
+  margin-bottom: 1rem;
+`;
+export const Info2 = styled.div`
+  max-width: 555px;
+  background: #fff;
+  opacity: 0.8;
+  color: #000;
+  padding: 2rem 2rem 2rem 1rem;
   margin-bottom: 1rem;
 `;
 

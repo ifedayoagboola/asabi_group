@@ -4,6 +4,7 @@ import {
   InfoSection,
   InfoSection3,
   InfoSection2,
+  InfoSection4,
   ServiceSection,
   Footer,
   JoinsUs,
@@ -15,6 +16,7 @@ function Home() {
       <InfoSection {...homeObjThree} />
       <InfoSection3 />
       <ServiceSection />
+      <InfoSection4 />
       <JoinsUs />
       <InfoSection2 {...homeObjOne} />
     </>

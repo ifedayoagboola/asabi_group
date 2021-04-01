@@ -6,7 +6,7 @@ import {
   InfoSec2,
   InfoRow,
   InfoColumn,
-  TextWrapper,
+  TextWrapper2,
   TopLine,
   Heading,
   Subtitle,
@@ -36,7 +36,7 @@ function InfoSection({
         <Container>
           <InfoRow imgStart={imgStart}>
             <InfoColumn>
-              <TextWrapper>
+              <TextWrapper2>
                 <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
@@ -45,7 +45,7 @@ function InfoSection({
                     {buttonLabel}
                   </Button>
                 </Link>
-              </TextWrapper>
+              </TextWrapper2>
             </InfoColumn>
             <InfoColumn>
               <Info>

@@ -83,18 +83,11 @@ const ServiceSection = () => {
 };
 
 const House = styled.div`
-  background-image: linear-gradient(
-      to bottom,
-      rgba(16, 21, 34, 0.73),
-      rgba(245, 246, 252, 0.52)
-    ),
-    url(${pic3});
+  background-image: url(${pic3});
   background-size: cover;
   width: 100%;
   height: 100vh;
-  border-left: 1px solid #2e344e;
-  border-right: 1px solid #2e344e;
-  border-bottom: 1px solid #2e344e;
+
   border-top: 8px solid #2e344e;
   transition: all 4s ease-in-out;
   @media (max-width: 1300px) {
@@ -115,7 +108,7 @@ const Header = styled.div`
   span {
     color: #037fff;
   }
-  color: #fff;
+  color: #101522;
   padding-top: 2rem;
   margin-bottom: 0;
   padding-bottom: 0;

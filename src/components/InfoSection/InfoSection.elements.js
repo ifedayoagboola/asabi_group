@@ -6,24 +6,13 @@ export const InfoSec = styled.div`
   color: #fff;
   padding: 80px 0;
   background: ${({ lightBg }) => (lightBg ? "#fff" : "#101522")};
-  background-image: linear-gradient(
-      to bottom,
-      rgba(245, 246, 252, 0.52),
-      rgba(16, 21, 34, 0.73)
-    ),
-    url(${pic4});
+  background-image: url(${pic4});
   background-size: cover;
 `;
 export const InfoSec2 = styled.div`
-  color: #fff;
+  color: #101522;
   padding: 80px 0;
-  background: ${({ lightBg }) => (lightBg ? "#fff" : "#101522")};
-  background-image: linear-gradient(
-      to bottom,
-      rgba(245, 246, 252, 0.52),
-      rgba(16, 21, 34, 0.73)
-    ),
-    url(${inv6});
+  background-image: url(${inv6});
   background-size: cover;
 `;
 export const InfoSec3 = styled.div`
@@ -81,9 +70,15 @@ export const InfoColumn3 = styled.div`
 
 export const TextWrapper = styled.div`
   max-width: 540px;
-  padding-top: 0;
-  padding-bottom: 60px;
-
+  padding: 1rem 1rem 60px;
+  background: rgba(255, 255, 255, 0.5);
+  @media screen and (max-width: 768px) {
+    padding-bottom: 65px;
+  }
+`;
+export const TextWrapper2 = styled.div`
+  max-width: 540px;
+  padding: 1rem 1rem 60px;
   @media screen and (max-width: 768px) {
     padding-bottom: 65px;
   }
@@ -98,7 +93,7 @@ export const Info = styled.div`
   max-width: 555px;
   background: #fff;
   opacity: 0.8;
-  color: #000;
+  color: #101522;
   padding: 2rem;
   margin-bottom: 1rem;
 `;
@@ -106,7 +101,7 @@ export const Info2 = styled.div`
   max-width: 555px;
   background: #fff;
   opacity: 0.8;
-  color: #000;
+  color: #101522;
   padding: 2rem 2rem 2rem 1rem;
   margin-bottom: 1rem;
 `;
@@ -134,6 +129,7 @@ export const Heading = styled.h1`
   font-size: 48px;
   line-height: 1.1;
   font-weight: 600;
+
   color: ${({ lightText }) => (lightText ? "#f7f8fa" : "#1c2237")};
 `;
 

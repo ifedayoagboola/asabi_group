@@ -37,7 +37,7 @@ function InfoSection({
             <InfoColumn>
               <TextWrapper>
                 <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
-                <Heading lightText={lightText}>{headline}</Heading>
+                <Heading>{headline}</Heading>
                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
                 <Link to="/sign-up">
                   <Button big fontBig primary={primary}>
@@ -48,7 +48,7 @@ function InfoSection({
             </InfoColumn>
             <InfoColumn>
               <ImgWrapper start={start}>
-                <Img src={img1} alt="" />
+                {/* <Img src={img1} alt="" /> */}
               </ImgWrapper>
             </InfoColumn>
           </InfoRow>

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import pic4 from "../../images/pic4.jpg";
-import inv6 from "../../images/inv5.jpg";
+import inv6 from "../../images/inv4.jpg";
 
 export const InfoSec = styled.div`
   color: #fff;
@@ -107,7 +107,7 @@ export const Info2 = styled.div`
 `;
 
 export const TopLine = styled.div`
-  color: ${({ lightTopLine }) => (lightTopLine ? "#a9b3c1" : "#4B59F7")};
+  color: ${({ lightTopLine }) => (lightTopLine ? "#A0B3C1;" : "#4B59F7")};
   font-size: 18px;
   line-height: 16px;
   font-weight: 700;
@@ -138,5 +138,5 @@ export const Subtitle = styled.p`
   margin-bottom: 35px;
   font-size: 18px;
   line-height: 24px;
-  color: ${({ lightTextDesc }) => (lightTextDesc ? "#a9b3c1" : "#1c2237")};
+  color: ${({ lightTextDesc }) => (lightTextDesc ? "#A0B3C1;" : "#1c2237")};
 `;

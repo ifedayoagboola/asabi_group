@@ -4,7 +4,7 @@ export const homeObjOne = {
   lightTopLine: true,
   lightText: true,
   lightTextDesc: true,
-  topLine: "Asabi Group",
+  topLine: "Asabi Investments",
   headline:
     "Bridging the financing gap for the next generation of MSMEs in Africa",
   description:
@@ -38,10 +38,10 @@ export const homeObjThree = {
   lightTopLine: false,
   lightText: false,
   lightTextDesc: false,
-  topLine: "Asabi Community Health Centre",
-  headline: "bridging the primary healthcare gap in Nigeria",
+  topLine: "Asabi Group",
+  headline: "Aiding the well-being of communities across Nigeria ",
   description:
-    "The Asabi Community Health Centre is set to provide basic medical care targeted at low-income residents of under resourced communities in Ibadan, Nigeria.",
+    "Under the umbrella of Asabi Group, falls two main arms: Asabi Community Health Centre, which was setup to bridge the healthcare gap in Nigeria and Asabi Investments which invests in promising entrepreneurs who are centre in driving the development of transformational MSME businesses.",
   buttonLabel: "View Case Study",
   imgStart: "start",
   img: "",

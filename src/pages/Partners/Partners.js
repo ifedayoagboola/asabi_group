@@ -1,14 +1,112 @@
 import React from "react";
-import { InfoSection } from "../../components";
+import { InfoSection, InfoSection2 } from "../../components";
 import { homeObjOne, homeObjTwo } from "./Data";
 
-function Products() {
+function Partners() {
   return (
     <>
-      {/* <InfoSection {...homeObjOne} />
-      <InfoSection {...homeObjTwo} /> */}
+      <h1>Hello</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit saepe
+        dolorem cum eaque. Delectus rerum suscipit perferendis cupiditate id ut
+        sint, consequuntur eos quis magnam, ea sit quod reprehenderit
+        exercitationem non deleniti possimus in blanditiis unde voluptatem
+        doloremque at. Animi dolorum quam hic facilis soluta consequuntur
+        officiis, ipsa dignissimos perferendis!
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit saepe
+        dolorem cum eaque. Delectus rerum suscipit perferendis cupiditate id ut
+        sint, consequuntur eos quis magnam, ea sit quod reprehenderit
+        exercitationem non deleniti possimus in blanditiis unde voluptatem
+        doloremque at. Animi dolorum quam hic facilis soluta consequuntur
+        officiis, ipsa dignissimos perferendis!
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit saepe
+        dolorem cum eaque. Delectus rerum suscipit perferendis cupiditate id ut
+        sint, consequuntur eos quis magnam, ea sit quod reprehenderit
+        exercitationem non deleniti possimus in blanditiis unde voluptatem
+        doloremque at. Animi dolorum quam hic facilis soluta consequuntur
+        officiis, ipsa dignissimos perferendis!
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit saepe
+        dolorem cum eaque. Delectus rerum suscipit perferendis cupiditate id ut
+        sint, consequuntur eos quis magnam, ea sit quod reprehenderit
+        exercitationem non deleniti possimus in blanditiis unde voluptatem
+        doloremque at. Animi dolorum quam hic facilis soluta consequuntur
+        officiis, ipsa dignissimos perferendis!
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit saepe
+        dolorem cum eaque. Delectus rerum suscipit perferendis cupiditate id ut
+        sint, consequuntur eos quis magnam, ea sit quod reprehenderit
+        exercitationem non deleniti possimus in blanditiis unde voluptatem
+        doloremque at. Animi dolorum quam hic facilis soluta consequuntur
+        officiis, ipsa dignissimos perferendis!
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit saepe
+        dolorem cum eaque. Delectus rerum suscipit perferendis cupiditate id ut
+        sint, consequuntur eos quis magnam, ea sit quod reprehenderit
+        exercitationem non deleniti possimus in blanditiis unde voluptatem
+        doloremque at. Animi dolorum quam hic facilis soluta consequuntur
+        officiis, ipsa dignissimos perferendis!
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit saepe
+        dolorem cum eaque. Delectus rerum suscipit perferendis cupiditate id ut
+        sint, consequuntur eos quis magnam, ea sit quod reprehenderit
+        exercitationem non deleniti possimus in blanditiis unde voluptatem
+        doloremque at. Animi dolorum quam hic facilis soluta consequuntur
+        officiis, ipsa dignissimos perferendis!
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit saepe
+        dolorem cum eaque. Delectus rerum suscipit perferendis cupiditate id ut
+        sint, consequuntur eos quis magnam, ea sit quod reprehenderit
+        exercitationem non deleniti possimus in blanditiis unde voluptatem
+        doloremque at. Animi dolorum quam hic facilis soluta consequuntur
+        officiis, ipsa dignissimos perferendis!
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit saepe
+        dolorem cum eaque. Delectus rerum suscipit perferendis cupiditate id ut
+        sint, consequuntur eos quis magnam, ea sit quod reprehenderit
+        exercitationem non deleniti possimus in blanditiis unde voluptatem
+        doloremque at. Animi dolorum quam hic facilis soluta consequuntur
+        officiis, ipsa dignissimos perferendis!
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit saepe
+        dolorem cum eaque. Delectus rerum suscipit perferendis cupiditate id ut
+        sint, consequuntur eos quis magnam, ea sit quod reprehenderit
+        exercitationem non deleniti possimus in blanditiis unde voluptatem
+        doloremque at. Animi dolorum quam hic facilis soluta consequuntur
+        officiis, ipsa dignissimos perferendis!
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit saepe
+        dolorem cum eaque. Delectus rerum suscipit perferendis cupiditate id ut
+        sint, consequuntur eos quis magnam, ea sit quod reprehenderit
+        exercitationem non deleniti possimus in blanditiis unde voluptatem
+        doloremque at. Animi dolorum quam hic facilis soluta consequuntur
+        officiis, ipsa dignissimos perferendis!
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit saepe
+        dolorem cum eaque. Delectus rerum suscipit perferendis cupiditate id ut
+        sint, consequuntur eos quis magnam, ea sit quod reprehenderit
+        exercitationem non deleniti possimus in blanditiis unde voluptatem
+        doloremque at. Animi dolorum quam hic facilis soluta consequuntur
+        officiis, ipsa dignissimos perferendis!
+      </p>
+
+      <InfoSection2 {...homeObjOne} />
+      <InfoSection {...homeObjTwo} />
     </>
   );
 }
 
-export default Products;
+export default Partners;

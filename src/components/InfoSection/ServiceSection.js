@@ -88,17 +88,11 @@ const House = styled.div`
   width: 100%;
   height: 100vh;
 
-  border-top: 8px solid #2e344e;
-  transition: all 4s ease-in-out;
   @media (max-width: 1300px) {
     display: block;
     width: 100%;
     padding: 1rem;
     margin-top: 400px;
-  }
-
-  &:hover {
-    border-top: 8px solid #037fff;
   }
 `;
 const Header = styled.div`

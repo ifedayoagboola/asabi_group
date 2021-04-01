@@ -6,7 +6,7 @@ export const homeObjOne = {
   lightTextDesc: true,
   topLine: "Asabi Group",
   headline:
-    "bridging the financing gap for the next generation of MSMEs in Africa",
+    "Bridging the financing gap for the next generation of MSMEs in Africa",
   description:
     "Asabi Investments believe in the role MSMEs play in driving the next wave of economic growth in many African countries and the creation of sustainable employment for the burgeoning youth population in the continent.",
   buttonLabel: "Get Started",

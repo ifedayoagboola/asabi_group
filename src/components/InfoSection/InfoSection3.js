@@ -1,14 +1,10 @@
 import React from "react";
-import img1 from "../../images/img1.jpg";
-import img2 from "../../images/img2.jpg";
 import img3 from "../../images/img3.jpg";
-import img4 from "../../images/img4.jpg";
-import pic4 from "../../images/pic4.jpg";
+import img4 from "../../images/inv1.jpg";
 import pic3 from "../../images/pic3.jpg";
 import { Link } from "react-router-dom";
 import { Container } from "../../globalStyles";
 import styled from "styled-components";
-import { InfoSec } from "./InfoSection.elements";
 
 function InfoSection3({ lightBg }) {
   return (
@@ -35,7 +31,7 @@ function InfoSection3({ lightBg }) {
             </Health>
             <Investments>
               <Img2>
-                <img src={img3} alt="" />
+                <img src={img4} alt="" />
               </Img2>
               <AbtInv>
                 <h3>

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import pic4 from "../../images/pic4.jpg";
-import inv6 from "../../images/inv2.jpg";
+import inv6 from "../../images/inv5.jpg";
 
 export const InfoSec = styled.div`
   color: #fff;

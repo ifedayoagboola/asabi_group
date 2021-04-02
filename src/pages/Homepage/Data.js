@@ -11,7 +11,7 @@ export const homeObjOne = {
     "Asabi Investments believe in the role MSMEs play in driving the next wave of economic growth in many African countries and the creation of sustainable employment for the burgeoning youth population in the continent.",
   buttonLabel: "View more",
   imgStart: "",
-  img: <img src={require("../../images/pic2.jpg")} alt="" />,
+  img: "",
   alt: "Image",
   start: "",
 };
@@ -61,7 +61,7 @@ export const homeObjFour = {
     "Asabi seeks to build trusting, collaborative and long term relationships with its portfolio companies, industry stakeholders, government partners, non-profit players with aligned interests",
   buttonLabel: "Sign Up Now",
   imgStart: "start",
-  img: require("../../images/svg-3.svg"),
+  img: "",
   alt: "Vault",
   start: "true",
 };

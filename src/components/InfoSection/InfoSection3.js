@@ -2,7 +2,6 @@ import React from "react";
 import img3 from "../../images/img3.jpg";
 import img4 from "../../images/inv1.jpg";
 import pic3 from "../../images/pic3.jpg";
-import { Link } from "react-router-dom";
 import { Container } from "../../globalStyles";
 import styled from "styled-components";
 

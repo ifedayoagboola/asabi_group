@@ -6,5 +6,4 @@ export { default as InfoSection3 } from "./InfoSection/InfoSection3";
 export { default as InfoSection4 } from "./InfoSection/InfoSection4";
 export { default as InfoSection5 } from "./InfoSection/InfoSection5";
 export { default as ServiceSection } from "./InfoSection/ServiceSection";
-export { default as Pricing } from "./Pricing/Pricing";
 export { default as JoinUs } from "./InfoSection/JoinUs";

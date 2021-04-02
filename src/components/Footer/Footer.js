@@ -1,19 +1,11 @@
 import React from "react";
-import { Button } from "../../globalStyles";
 import logo1 from "../../images/logo1.png";
-import {
-  FaFacebook,
-  FaInstagram,
-  FaYoutube,
-  FaTwitter,
-  FaLinkedin,
-} from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 import {
   FooterContainer,
   SocialMedia,
   SocialMediaWrap,
   SocialLogo,
-  SocialIcon,
   WebsiteRights,
   SocialIcons,
   SocialIconLink,

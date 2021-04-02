@@ -1,5 +1,4 @@
 import React from "react";
-import img2 from "../../images/pic2.jpg";
 import { Link } from "react-router-dom";
 import { Container, Button } from "../../globalStyles";
 import {
@@ -11,8 +10,6 @@ import {
   Heading,
   Subtitle,
   Info,
-  ImgWrapper,
-  Img,
 } from "./InfoSection.elements";
 
 function InfoSection({
@@ -25,10 +22,7 @@ function InfoSection({
   headline,
   description,
   buttonLabel,
-  img,
-  alt,
   imgStart,
-  start,
 }) {
   return (
     <>

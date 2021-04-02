@@ -1,8 +1,5 @@
 import React from "react";
-import styled from "styled-components";
-
-import img1 from "../../images/img1.jpg";
-import { Container, Button } from "../../globalStyles";
+import { Container } from "../../globalStyles";
 import {
   InfoColumn2,
   InfoColumn3,
@@ -52,41 +49,5 @@ const InfoSection4 = () => {
     </InfoSec3>
   );
 };
-const Section4 = styled.div`
-  min-height: 90vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 5rem 10rem;
-  overflow: hidden;
-
-  @media (max-width: 1300px) {
-    display: block;
-    padding: 1rem 1rem;
-    text-align: center;
-  }
-`;
-
-const Description = styled.div`
-  flex: 1;
-  padding-left: 5rem;
-  button {
-    max-width: 160px;
-  }
-  @media (max-width: 1300px) {
-    padding: 5rem 0;
-    text-align: left;
-    justify-content: center;
-  }
-`;
-const Image = styled.div`
-  max-width: 500px;
-  img {
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-    border: 3px solid #4b59f7;
-  }
-`;
 
 export default InfoSection4;

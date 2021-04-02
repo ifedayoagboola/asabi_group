@@ -9,7 +9,7 @@ export const homeObjOne = {
     "In this age, as our society faces increasingly complex challenges",
   buttonLabel: "Shop Now",
   imgStart: "",
-  img: require("../../images/svg-1.svg"),
+  img: "",
   alt: "Credit Card",
 };
 
@@ -24,7 +24,7 @@ export const homeObjTwo = {
     "We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime",
   buttonLabel: "Learn More",
   imgStart: "",
-  img: require("../../images/svg-1.svg"),
+  img: "",
   alt: "Vault",
 };
 
@@ -38,7 +38,7 @@ export const homeObjThree = {
     "the answer to some of these pressing issues will be found through alliances formed by individuals and organizations from the non-profit, government, philanthropic, and business sectors that use their diverse perspectives and resources to jointly solve a societal problem and achieve a shared goal. ",
   buttonLabel: "Start Now",
   imgStart: "start",
-  img: require("../../images/svg-1.svg"),
+  img: "",
   alt: "Vault",
 };
 
@@ -52,6 +52,6 @@ export const homeObjFour = {
     "Never ever have to worry again about saved reciepts. We store your data, so you can access it anytime.",
   buttonLabel: "Sign Up Now",
   imgStart: "start",
-  img: require("../../images/svg-1.svg"),
+  img: "",
   alt: "Vault",
 };

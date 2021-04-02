@@ -9,7 +9,7 @@ export const homeObjOne = {
     "We take a holistic approach in sourcing deals and investments where a business is assessed based on the weighting of its financial viability alongside environmental and community development impact. ",
   buttonLabel: "Connect",
   imgStart: "",
-  img: require("../../images/svg-1.svg"),
+  img: "",
   alt: "Credit Card",
 };
 
@@ -24,7 +24,7 @@ export const homeObjTwo = {
     "We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime",
   buttonLabel: "Learn More",
   imgStart: "",
-  img: require("../../images/svg-1.svg"),
+  img: "",
   alt: "Vault",
 };
 
@@ -38,7 +38,7 @@ export const homeObjThree = {
     "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
   buttonLabel: "Start Now",
   imgStart: "start",
-  img: require("../../images/svg-1.svg"),
+  img: "",
   alt: "Vault",
 };
 
@@ -52,6 +52,6 @@ export const homeObjFour = {
     "Never ever have to worry again about saved reciepts. We store your data, so you can access it anytime.",
   buttonLabel: "Sign Up Now",
   imgStart: "start",
-  img: require("../../images/svg-1.svg"),
+  img: "",
   alt: "Vault",
 };

@@ -6,7 +6,6 @@ import {
   InfoSection2,
   InfoSection4,
   ServiceSection,
-  Footer,
   JoinUs,
 } from "../../components";
 

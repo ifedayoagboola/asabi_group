@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import { Container2 } from "../../globalStyles";
-import { Heading } from "./InfoSection.elements";
 import Toggle from "./Toggle";
 import pic3 from "../../images/pic3.jpg";
 

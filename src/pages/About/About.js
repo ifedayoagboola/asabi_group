@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import img1 from "../../images/img13.jpg";
+import { Link } from "react-router-dom";
 import { Container } from "../../globalStyles";
 import { Button } from "../../globalStyles";
 
@@ -66,8 +67,12 @@ function Services() {
             </p>
           </Flex>
           <Btns>
-            <Button fontBig>Investments</Button>
-            <Button fontBig>Healthcare</Button>
+            <Link to="/investments">
+              <Button fontBig>Investments</Button>
+            </Link>
+            <Link to="/healthcare">
+              <Button fontBig>Healthcare</Button>
+            </Link>
           </Btns>
         </Child3>
       </Parent>

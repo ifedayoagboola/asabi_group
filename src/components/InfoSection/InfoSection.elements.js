@@ -19,6 +19,11 @@ export const InfoSec3 = styled.div`
   color: #101522;
   padding: 80px 0;
 `;
+export const InfoSec4 = styled.div`
+  color: #fff;
+  padding: 80px 0;
+  background: ${({ lightBg }) => (lightBg ? "#fff" : "#101522")};
+`;
 
 export const InfoRow = styled.div`
   display: flex;

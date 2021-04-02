@@ -7,7 +7,7 @@ export const homeObjOne = {
   headline: "Driving impact in the fastest growing industries across Africa",
   description:
     "We take a holistic approach in sourcing deals and investments where a business is assessed based on the weighting of its financial viability alongside environmental and community development impact. ",
-  buttonLabel: "Shop Now",
+  buttonLabel: "Connect",
   imgStart: "",
   img: require("../../images/svg-1.svg"),
   alt: "Credit Card",

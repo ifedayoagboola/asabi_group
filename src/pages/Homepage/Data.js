@@ -9,7 +9,7 @@ export const homeObjOne = {
     "Bridging the financing gap for the next generation of MSMEs in Africa",
   description:
     "Asabi Investments believe in the role MSMEs play in driving the next wave of economic growth in many African countries and the creation of sustainable employment for the burgeoning youth population in the continent.",
-  buttonLabel: "Get Started",
+  buttonLabel: "View more",
   imgStart: "",
   img: <img src={require("../../images/pic2.jpg")} alt="" />,
   alt: "Image",
@@ -42,7 +42,7 @@ export const homeObjThree = {
   headline: "Aiding the well-being of communities across Nigeria ",
   description:
     "Under the umbrella of Asabi Group, falls two main arms: Asabi Community Health Centre, which was setup to bridge the healthcare gap in Nigeria and Asabi Investments which invests in promising entrepreneurs who are centre in driving the development of transformational MSME businesses.",
-  buttonLabel: "View Case Study",
+  buttonLabel: "View more",
   imgStart: "start",
   img: "",
   alt: "Vault",

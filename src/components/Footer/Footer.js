@@ -27,9 +27,9 @@ function Footer() {
           <SocialLogo to="/">
             <img src={logo1} alt="" />
           </SocialLogo>
-          <WebsiteRights>ASABI © 2021</WebsiteRights>
+          <WebsiteRights>ASABI INVESTMENTS © 2021</WebsiteRights>
           <SocialIcons>
-            <SocialIconLink href="/" target="_blank" aria-label="Facebook">
+            {/* <SocialIconLink href="/" target="_blank" aria-label="Facebook">
               <FaFacebook />
             </SocialIconLink>
             <SocialIconLink href="/" target="_blank" aria-label="Instagram">
@@ -47,7 +47,8 @@ function Footer() {
             </SocialIconLink>
             <SocialIconLink href="/" target="_blank" aria-label="Twitter">
               <FaTwitter />
-            </SocialIconLink>
+            </SocialIconLink> */}
+            <h4>connect via linkedIn</h4>
             <SocialIconLink href="/" target="_blank" aria-label="LinkedIn">
               <FaLinkedin />
             </SocialIconLink>

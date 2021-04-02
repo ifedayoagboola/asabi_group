@@ -70,19 +70,19 @@ function Navbar() {
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="/patners" onClick={closeMobileMenu}>
+                <NavLinks to="/partners" onClick={closeMobileMenu}>
                   Partners
                 </NavLinks>
               </NavItem>
               <NavItemBtn>
                 {button ? (
-                  <NavBtnLink to="/sign-up">
-                    <Button primary>Contact</Button>
+                  <NavBtnLink to="/contact">
+                    <Button primary>Connect</Button>
                   </NavBtnLink>
                 ) : (
-                  <NavBtnLink to="/sign-up">
+                  <NavBtnLink to="/contact">
                     <Button onClick={closeMobileMenu} fontBig primary>
-                      Contact
+                      Connect
                     </Button>
                   </NavBtnLink>
                 )}

@@ -162,9 +162,15 @@ export const SocialIcons = styled.div`
   justify-content: space-between;
   align-items: center;
   width: 240px;
+  h4 {
+    color: #fff;
+    font-weight: lighter;
+    margin-bottom: 16px;
+  }
 `;
 
 export const SocialIconLink = styled.a`
   color: #fff;
   font-size: 24px;
+  margin-bottom: 16px;
 `;

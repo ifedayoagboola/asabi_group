@@ -10,7 +10,7 @@ import {
   FormInput,
 } from "../Footer/Footer.elements";
 
-function Contact() {
+function JoinUs() {
   return (
     <FooterContainer>
       <FooterSubscription>
@@ -27,4 +27,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default JoinUs;

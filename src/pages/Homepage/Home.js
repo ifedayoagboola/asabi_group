@@ -7,7 +7,7 @@ import {
   InfoSection4,
   ServiceSection,
   Footer,
-  Contact,
+  JoinUs,
 } from "../../components";
 
 function Home() {
@@ -17,7 +17,7 @@ function Home() {
       <InfoSection3 />
       <ServiceSection />
       <InfoSection4 />
-      <Contact />
+      <JoinUs />
       <InfoSection2 {...homeObjOne} />
     </>
   );

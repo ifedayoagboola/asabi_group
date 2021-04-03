@@ -85,18 +85,20 @@ const House = styled.div`
   background-image: url(${pic3});
   background-size: cover;
   width: 100%;
-  height: 100vh;
 
-  @media (max-width: 1300px) {
+  @media (max-width: 768px) {
     display: block;
     width: 100%;
     padding: 1rem;
-    margin-top: 400px;
+    margin-top: 380px;
   }
 `;
 const Header = styled.div`
   h1 {
     padding: 2rem 0;
+    @media (max-width: 768px) {
+      line-height: 2.5rem;
+    }
   }
   span {
     color: #037fff;

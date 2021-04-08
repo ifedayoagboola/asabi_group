@@ -6,10 +6,10 @@ const Contact = () => {
     <>
       <Parent>
         <Content>
-          <p>
+          <h3>
             Reach out using the form below if you are interested in the work we
             are doing at Asabi Group
-          </p>
+          </h3>
           <form action="">
             <div>
               <label>Full Name</label>
@@ -38,6 +38,7 @@ const Parent = styled.div`
   justify-content: center;
   align-items: center;
   margin-top: -100px;
+  color: #101522;
 `;
 
 const Content = styled.div`
@@ -89,7 +90,7 @@ const Content = styled.div`
       box-shadow: 0 3px 20px rgba(0, 0, 0, 0.4);
     }
   }
-  p {
+  h3 {
     width: 100%;
     margin-bottom: 2rem;
   }

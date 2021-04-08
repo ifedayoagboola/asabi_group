@@ -5,7 +5,7 @@ import inv6 from "../../images/inv4.jpg";
 export const InfoSec = styled.div`
   color: #fff;
   padding: 150px 0;
-  height: 100vh;
+  height: 70vh;
   background: ${({ lightBg }) => (lightBg ? "#fff" : "#101522")};
   background-image: url(${pic4});
   background-size: cover;

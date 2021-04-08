@@ -13,19 +13,21 @@ function Services() {
           <Flex>
             <h1>ABOUT ASABI GROUP</h1>
             <p>
-              Our first clinic, the Asabi Community Health Centre, launches Q1
-              2022. ACHC’s data driven approach ensures that we provide
-              efficient, dynamic and preventative healthcare services. Our
-              Subscription based medical access ensures self-accountability for
-              patients’ health and ultimately preventive health practices. Our
-              Sliding scale pricing model enables us to leverage higher income
-              patients to subsidise the lower income patients.
+              Under the umbrella of Asabi Group, falls two main arms: Asabi
+              Community Health Centre, which was setup to bridge the healthcare
+              gap in Nigeria with a core focus on improving community health
+              outcomes amongst low-income and under resourced neighbourhood and
+              Asabi Investments which invests in promising entrepreneurs who are
+              front and centre in driving the growth and development of
+              transformational MSME businesses.
               <br />
               <br />
-              Asabi Community Health Centre (ACHC) was setup to bridge the
-              healthcare gap in Nigeria with a core focus on improving community
-              health outcomes amongst low-income and under resourced
-              neighbourhoods.
+              Asabi Investments aims to be recognized as the leading investor in
+              MSMEs across the African continent while
+              <br />
+              ACHC aims to enables healthy living amongst low-income Nigerians.
+              Our mission is to provide high quality, affordable and accessible
+              primary healthcare to low-income communities
             </p>
           </Flex>
           <Btns>

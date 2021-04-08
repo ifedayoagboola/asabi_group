@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import HomeSection2 from "../InfoSection/HomeSection2";
 import { Container, Button } from "../../globalStyles";
 import {
   InfoSec,
@@ -43,6 +44,7 @@ function InfoSection({
           </InfoRow2>
         </Container>
       </InfoSec>
+      <HomeSection2 />
     </>
   );
 }

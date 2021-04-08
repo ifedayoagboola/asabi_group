@@ -39,7 +39,7 @@ const InfoSection4 = () => {
             finding great talent.
           </Info2>
           <Info2>
-            <h3>Asabi Investments </h3>
+            <h3>Investments Portfolio</h3>
             The fund is invested in taking a Pan-African approach and invest in
             MSMEs from Kenya, Uganda, Ghana, Nigeria, Zimbabwe, Ethiopia,
             Franco-phone West Africa and South Africa.

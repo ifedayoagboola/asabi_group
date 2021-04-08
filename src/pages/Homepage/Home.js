@@ -13,11 +13,6 @@ function Home() {
   return (
     <>
       <InfoSection {...homeObjThree} />
-      <InfoSection3 />
-      <ServiceSection />
-      <InfoSection4 />
-      <JoinUs />
-      <InfoSection2 {...homeObjOne} />
     </>
   );
 }

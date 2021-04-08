@@ -3,61 +3,53 @@ import img3 from "../../images/img3.jpg";
 import img4 from "../../images/inv1.jpg";
 import pic3 from "../../images/pic3.jpg";
 import { Container } from "../../globalStyles";
+import { InfoSec3 } from "../InfoSection/InfoSection.elements";
 import styled from "styled-components";
 
 function InfoSection3({ lightBg }) {
   return (
     <>
       <InfoSec3 lightBg={!lightBg}>
-        <Container>
-          <House>
-            <Health>
-              <AbtHealth>
-                <h3>
-                  Asabi Community <span>Healthcare</span> Centre
-                </h3>
-                <p>
-                  Many poor Nigerians do not have established relationships with
-                  healthcare providers because they cannot afford to. The Asabi
-                  Community Health Centre is set to provide basic medical care
-                  targeted at low-income residents of under resourced
-                  communities in Ibadan, Nigeria.
-                </p>
-              </AbtHealth>
-              <Img>
-                <img src={img3} alt="" />
-              </Img>
-            </Health>
-            <Investments>
-              <Img2>
-                <img src={img4} alt="" />
-              </Img2>
-              <AbtInv>
-                <h3>
-                  Asabi <span>Investments</span>
-                </h3>
-                <p>
-                  Asabi Investments takes a holistic approach in sourcing deals
-                  and investments where a business is assessed based on the
-                  weighting of its financial viability alongside environmental
-                  and community development impact.
-                </p>
-              </AbtInv>
-            </Investments>
-          </House>
-        </Container>
+        <House>
+          <Health>
+            <AbtHealth>
+              <h3>
+                Asabi Community <span>Healthcare</span> Centre
+              </h3>
+              <p>
+                Many poor Nigerians do not have established relationships with
+                healthcare providers because they cannot afford to. The Asabi
+                Community Health Centre is set to provide basic medical care
+                targeted at low-income residents of under resourced communities
+                in Ibadan, Nigeria.
+              </p>
+            </AbtHealth>
+            <Img>
+              <img src={img3} alt="" />
+            </Img>
+          </Health>
+          <Investments>
+            <Img2>
+              <img src={img4} alt="" />
+            </Img2>
+            <AbtInv>
+              <h3>
+                Asabi <span>Investments</span>
+              </h3>
+              <p>
+                Asabi Investments takes a holistic approach in sourcing deals
+                and investments where a business is assessed based on the
+                weighting of its financial viability alongside environmental and
+                community development impact.
+              </p>
+            </AbtInv>
+          </Investments>
+        </House>
       </InfoSec3>
     </>
   );
 }
 
-const InfoSec3 = styled.div`
-  /* background-image: url(${pic3}); */
-  background: #fff;
-  background-size: cover;
-  width: 100%;
-  height: 100vh;
-`;
 const House = styled.div`
   display: flex;
   flex-direction: column;
@@ -67,11 +59,13 @@ const House = styled.div`
 const Health = styled.div`
   display: flex;
   color: #101522;
-  margin: 5rem 0 2rem -200px;
+  padding: 3rem 0;
   align-items: center;
   justify-content: center;
-  width: 65%;
+  width: 100%;
+  border-top: 3px solid #0069b0;
   border-left: 3px solid #0069b0;
+  border-bottom: 3px solid #0069b0;
   h3 {
     color: #101522;
   }
@@ -97,11 +91,12 @@ const AbtHealth = styled.div`
 const Investments = styled.div`
   display: flex;
   color: #101522;
-  margin: 0 -300px 2rem 0;
+  padding: 3rem 0;
   align-items: center;
   justify-content: center;
-  width: 65%;
-  border-right: 3px solid #0069b0;
+  width: 100%;
+  border-right: 3px solid #0260a2;
+  border-bottom: 3px solid #0260a2;
   h3 {
     color: #101522;
   }

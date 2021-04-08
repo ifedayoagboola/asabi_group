@@ -68,20 +68,16 @@ function Navbar() {
                   Healthcare
                 </NavLinks>
               </NavItem>
-              <NavItem>
-                <NavLinks to="/partners" onClick={closeMobileMenu}>
-                  Partners
-                </NavLinks>
-              </NavItem>
+
               <NavItemBtn>
                 {button ? (
-                  <NavBtnLink to="/contact">
-                    <Button primary>Connect</Button>
+                  <NavBtnLink to="/partners">
+                    <Button primary>Partnership</Button>
                   </NavBtnLink>
                 ) : (
-                  <NavBtnLink to="/contact">
+                  <NavBtnLink to="/partners">
                     <Button onClick={closeMobileMenu} fontBig primary>
-                      Connect
+                      Partnership
                     </Button>
                   </NavBtnLink>
                 )}

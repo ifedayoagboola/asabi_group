@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 
 export const FooterContainer = styled.div`
   background-color: #101522;
-  padding: 4rem 0 2rem 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -116,17 +115,14 @@ export const FooterLink = styled(Link)`
 `;
 
 export const SocialMedia = styled.section`
-  max-width: 1000px;
   width: 100%;
 `;
 
 export const SocialMediaWrap = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  width: 90%;
-  max-width: 1000px;
-  margin: 40px auto 0 auto;
+  width: 100%;
 
   @media screen and (max-width: 820px) {
     flex-direction: column;
@@ -141,10 +137,10 @@ export const SocialLogo = styled(Link)`
   font-size: 2rem;
   display: flex;
   align-items: center;
-  margin-bottom: 16px;
+
   img {
-    height: 100px;
-    width: 120px;
+    height: 60px;
+    width: 80px;
   }
 `;
 
@@ -154,7 +150,6 @@ export const SocialIcon = styled(FaMagento)`
 
 export const WebsiteRights = styled.small`
   color: #fff;
-  margin-bottom: 16px;
 `;
 
 export const SocialIcons = styled.div`
@@ -165,12 +160,10 @@ export const SocialIcons = styled.div`
   h4 {
     color: #fff;
     font-weight: lighter;
-    margin-bottom: 16px;
   }
 `;
 
 export const SocialIconLink = styled.a`
   color: #fff;
   font-size: 24px;
-  margin-bottom: 16px;
 `;

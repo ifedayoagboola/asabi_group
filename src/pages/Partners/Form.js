@@ -6,7 +6,10 @@ const Contact = () => {
     <>
       <Parent>
         <Content>
-          <p>Kindly fill out the form below to connect with us.</p>
+          <p>
+            Reach out using the form below if you are interested in the work we
+            are doing at Asabi Group
+          </p>
           <form action="">
             <div>
               <label>Full Name</label>

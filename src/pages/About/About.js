@@ -11,7 +11,7 @@ function Services() {
       <Container>
         <Child3>
           <Flex>
-            <h1>ABOUT ASABI</h1>
+            <h1>ABOUT ASABI GROUP</h1>
             <p>
               Our first clinic, the Asabi Community Health Centre, launches Q1
               2022. ACHC’s data driven approach ensures that we provide
@@ -42,6 +42,7 @@ function Services() {
 
 const Child3 = styled.div`
   background: #fff;
+  color: #101522;
   padding-top: 5rem;
   @media screen and (max-width: 768px) {
     width: 100%;

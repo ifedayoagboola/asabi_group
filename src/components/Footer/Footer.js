@@ -19,12 +19,13 @@ function Footer() {
           <SocialLogo to="/">
             <img src={logo1} alt="" />
           </SocialLogo>
-          <WebsiteRights>ASABI INVESTMENTS © 2021</WebsiteRights>
+
           <SocialIcons>
             <SocialIconLink href="/" target="_blank" aria-label="LinkedIn">
               <FaLinkedin />
             </SocialIconLink>
           </SocialIcons>
+          <WebsiteRights>ASABI INVESTMENTS © 2021</WebsiteRights>
         </SocialMediaWrap>
       </SocialMedia>
     </FooterContainer>

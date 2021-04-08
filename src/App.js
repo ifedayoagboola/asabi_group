@@ -5,7 +5,6 @@ import About from "./pages/About/About";
 import Investments from "./pages/Investments/Investments";
 import HealthCare from "./pages/HealthCare/HealthCare";
 import Partners from "./pages/Partners/Partners";
-import Contact from "./pages/Contact/Contact";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import { Navbar, Footer } from "./components";
@@ -22,7 +21,6 @@ function App() {
         <Route path="/investments" component={Investments} />
         <Route path="/healthcare" component={HealthCare} />
         <Route path="/partners" component={Partners} />
-        <Route path="/contact" component={Contact} />
       </Switch>
       <Footer />
     </Router>

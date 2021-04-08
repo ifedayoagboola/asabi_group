@@ -1,13 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import styled from "styled-components";
 import { Container, Button } from "../../globalStyles";
 import {
   InfoSec,
-  InfoRow,
+  InfoRow2,
   InfoColumn,
   TextWrapper,
   TopLine,
-  Heading,
+  Heading2,
   Subtitle,
   ImgWrapper,
 } from "./InfoSection.elements";
@@ -23,34 +24,28 @@ function InfoSection({
   buttonLabel,
   imgStart,
   start,
+  lightText,
 }) {
   return (
     <>
       <InfoSec lightBg={lightBg}>
         <Container>
-          <InfoRow imgStart={imgStart}>
-            <InfoColumn>
-              <TextWrapper>
-                <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
-                <Heading>{headline}</Heading>
-                <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
-                <Link to="/about">
-                  <Button big fontBig primary={primary}>
-                    {buttonLabel}
-                  </Button>
-                </Link>
-              </TextWrapper>
-            </InfoColumn>
-            <InfoColumn>
-              <ImgWrapper start={start}>
-                {/* <Img src={img1} alt="" /> */}
-              </ImgWrapper>
-            </InfoColumn>
-          </InfoRow>
+          <InfoRow2 imgStart={imgStart}>
+            <TextWrap>
+              <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
+              <Heading2>{headline}</Heading2>
+              {/* <Link to="/about">
+                <Button big fontBig primary={primary}>
+                  {buttonLabel}
+                </Button>
+              </Link> */}
+            </TextWrap>
+          </InfoRow2>
         </Container>
       </InfoSec>
     </>
   );
 }
 
+const TextWrap = styled.div``;
 export default InfoSection;

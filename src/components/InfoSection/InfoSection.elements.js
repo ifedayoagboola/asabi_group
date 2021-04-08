@@ -1,19 +1,23 @@
 import styled from "styled-components";
-import pic4 from "../../images/pic4.jpg";
+import pic4 from "../../images/bg4.jpg";
 import inv6 from "../../images/inv4.jpg";
 
 export const InfoSec = styled.div`
   color: #fff;
-  padding: 80px 0;
+  padding: 150px 0;
+  height: 100vh;
   background: ${({ lightBg }) => (lightBg ? "#fff" : "#101522")};
   background-image: url(${pic4});
   background-size: cover;
 `;
 export const InfoSec2 = styled.div`
-  color: #101522;
-  padding: 80px 0;
+  /* padding: 80px 0; */
   background-image: url(${inv6});
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
 `;
 export const InfoSec3 = styled.div`
   color: #101522;
@@ -30,7 +34,13 @@ export const InfoRow = styled.div`
   margin: 0 -15px -15px -15px;
   flex-wrap: wrap;
   align-items: center;
-  flex-direction: ${({ imgStart }) => (imgStart ? "row-reverse" : "row")};
+  /* flex-direction: ${({ imgStart }) => (imgStart ? "row-reverse" : "row")}; */
+`;
+export const InfoRow2 = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 `;
 
 export const InfoColumn = styled.div`
@@ -136,6 +146,15 @@ export const Heading = styled.h1`
   font-weight: 600;
 
   color: ${({ lightText }) => (lightText ? "#f7f8fa" : "#1c2237")};
+`;
+export const Heading2 = styled.h1`
+  margin: auto;
+  margin-bottom: 1rem;
+  width: 80%;
+  font-size: 4.2rem;
+  line-height: 1.1;
+  font-weight: 600;
+  color: #fff;
 `;
 
 export const Subtitle = styled.p`

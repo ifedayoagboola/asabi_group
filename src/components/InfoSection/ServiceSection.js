@@ -141,8 +141,10 @@ const Service = styled.div`
 
 const Content = styled.div`
   padding: 1rem;
-  background: rgba(16, 21, 34, 0.7);
+  background: #fff;
+  opacity: 0.7;
   margin-right: 2rem;
+  /* border: 2px solid #0467fb; */
 
   h5 {
     font-size: 1.3rem;
@@ -150,7 +152,7 @@ const Content = styled.div`
     position: relative;
     padding-bottom: 1rem;
     margin: 1rem 0;
-    color: #fff;
+    color: #101522;
 
     &::after {
       content: "";
@@ -163,7 +165,7 @@ const Content = styled.div`
     }
   }
   p {
-    color: #a9b3c1;
+    color: #101522;
   }
   @media screen and (max-width: 1300px) {
     display: none;

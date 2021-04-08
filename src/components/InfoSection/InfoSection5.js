@@ -1,7 +1,6 @@
 import React from "react";
 import img1 from "../../images/partner.jpg";
 import { Container } from "../../globalStyles";
-import styled from "styled-components";
 import {
   InfoSec4,
   InfoRow,
@@ -33,24 +32,6 @@ function InfoSection5({
                 <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                 <Heading>{headline}</Heading>
                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
-
-                <PartnersList>
-                  <h3>
-                    Asabi is keen to develop mission aligned partnerships with
-                    the following groups
-                  </h3>
-                  <ul>
-                    <li>Corporate Foundations</li>
-                    <li>Civil Society</li>
-                    <li>Federal Government departments</li>
-                    <li>Corporate Companies with aligned mission.</li>
-                  </ul>
-                  <ul>
-                    <li> Private citizens</li>
-                    <li>Institutions of Higher Learning and other TVETs</li>
-                    <li>State Government departments</li>
-                  </ul>
-                </PartnersList>
               </TextWrapper>
             </InfoColumn>
             <InfoColumn>
@@ -64,19 +45,5 @@ function InfoSection5({
     </>
   );
 }
-const PartnersList = styled.div`
-  color: #101522;
-  border: 3px solid #0467fb;
-  h3 {
-    padding: 1rem;
-  }
-  ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    li {
-      padding: 1rem;
-    }
-  }
-`;
+
 export default InfoSection5;

@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import { InfoSection3 } from "../../components";
-import img1 from "../../images/img13.jpg";
 import { Link } from "react-router-dom";
 import { Container } from "../../globalStyles";
 import { Button } from "../../globalStyles";

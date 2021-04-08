@@ -1,13 +1,6 @@
 import React from "react";
-import { homeObjOne, homeObjThree } from "./Data";
-import {
-  InfoSection,
-  InfoSection3,
-  InfoSection2,
-  InfoSection4,
-  ServiceSection,
-  JoinUs,
-} from "../../components";
+import { homeObjThree } from "./Data";
+import { InfoSection } from "../../components";
 
 function Home() {
   return (

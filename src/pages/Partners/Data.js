@@ -33,9 +33,9 @@ export const homeObjThree = {
   lightText: false,
   lightTextDesc: false,
   topLine: "Partners",
-  headline: "In this age, as our society faces increasingly complex challenges",
+  headline: "Asabi is keen to develop mission aligned partnerships ",
   description:
-    "the answer to some of these pressing issues will be found through alliances formed by individuals and organizations from the non-profit, government, philanthropic, and business sectors that use their diverse perspectives and resources to jointly solve a societal problem and achieve a shared goal. ",
+    "In this age, as our society faces increasingly complex challenges, the answer to some of these pressing issues will be found through alliances formed by individuals and organizations from the non-profit, government, philanthropic, and business sectors that use their diverse perspectives and resources to jointly solve a societal problem and achieve a shared goal.  ",
   buttonLabel: "Start Now",
   imgStart: "start",
   img: "",

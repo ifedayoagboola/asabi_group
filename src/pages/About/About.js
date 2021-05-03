@@ -13,21 +13,20 @@ function Services() {
           <Flex>
             <h1>ABOUT ASABI GROUP</h1>
             <p>
-              Under the umbrella of Asabi Group, falls two main arms: Asabi
-              Community Health Centre, which was setup to bridge the healthcare
-              gap in Nigeria with a core focus on improving community health
-              outcomes amongst low-income and under resourced neighbourhood and
-              Asabi Investments which invests in promising entrepreneurs who are
-              front and centre in driving the growth and development of
-              transformational MSME businesses.
+              Under the umbrella of Asabi Group falls two primary arms: It aims
+              to bridge the healthcare gap in Nigeria with a core focus on
+              improving community health outcomes amongst low-income and
+              under-resourced neighbourhoods in Nigeria; and It invests in
+              promising entrepreneurs who are front and centre in driving the
+              growth and development of transformational MSME businesses.
               <br />
               <br />
-              Asabi Investments aims to be recognized as the leading investor in
-              MSMEs across the African continent while
+              Asabi Investments aims to be the leading investor in MSMEs across
+              the African continent
               <br />
-              ACHC aims to enables healthy living amongst low-income Nigerians.
-              Our mission is to provide high quality, affordable and accessible
-              primary healthcare to low-income communities
+              ACHC aims to enable healthy living amongst low-income Nigerians.
+              To provide high quality, affordable and accessible primary
+              healthcare to low-income communities
             </p>
           </Flex>
           <Btns>

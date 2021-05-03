@@ -19,8 +19,8 @@ function InfoSection3({ lightBg }) {
               <p>
                 Many poor Nigerians do not have established relationships with
                 healthcare providers because they cannot afford to. The Asabi
-                Community Health Centre is set to provide basic medical care
-                targeted at low-income residents of under resourced communities
+                Community Health Centre will provide primary medical care
+                targeted at low-income residents of under-resourced communities
                 in Ibadan, Nigeria.
               </p>
             </AbtHealth>

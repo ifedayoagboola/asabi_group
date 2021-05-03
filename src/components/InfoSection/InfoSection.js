@@ -34,7 +34,10 @@ function InfoSection({
           <InfoRow2 imgStart={imgStart}>
             <TextWrap>
               <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
-              <Heading2>{headline}</Heading2>
+              <Heading2>
+                <span>We are</span> {headline} <span>the</span> world!
+              </Heading2>
+
               {/* <Link to="/about">
                 <Button big fontBig primary={primary}>
                   {buttonLabel}
@@ -49,5 +52,14 @@ function InfoSection({
   );
 }
 
-const TextWrap = styled.div``;
+const TextWrap = styled.div`
+  width: 70%;
+  span {
+    color: #0260a2;
+  }
+  @media only screen and (max-width: 600px) {
+    width: 100%;
+  }
+`;
+
 export default InfoSection;

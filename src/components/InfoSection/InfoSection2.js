@@ -43,14 +43,13 @@ function InfoSection({
             </InfoColumn>
             <InfoColumn>
               <Info>
-                collaborative and long term relationships with its portfolio
+                Collaborative and long term relationships with its portfolio
                 companies, industry stakeholders, government partners,
                 non-profit players with aligned interests
               </Info>
               <Info>
-                We pay keen attention paid to optimization of processes where
-                things can be done much faster and better as the world evolves
-                into trends that cannot be predicted.
+                There’s keen attention paid to optimising processes where
+                execution is much faster and better.
               </Info>
               <Info>
                 As Asabi partners with entrepreneurs to fund the next generation

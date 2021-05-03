@@ -39,7 +39,7 @@ export const homeObjThree = {
   lightText: false,
   lightTextDesc: false,
   topLine: "",
-  headline: "We are changing the world.",
+  headline: "changing",
   description:
     "Under the umbrella of Asabi Group, falls two main arms: Asabi Community Health Centre, which was setup to bridge the healthcare gap in Nigeria and Asabi Investments which invests in promising entrepreneurs who are centre in driving the development of transformational MSME businesses.",
   buttonLabel: "About us",

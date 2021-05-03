@@ -5,7 +5,7 @@ import inv6 from "../../images/inv4.jpg";
 export const InfoSec = styled.div`
   color: #fff;
   padding: 150px 0;
-  height: 70vh;
+  height: 100vh;
   background: ${({ lightBg }) => (lightBg ? "#fff" : "#101522")};
   background-image: url(${pic4});
   background-size: cover;
@@ -148,8 +148,8 @@ export const Heading = styled.h1`
   color: ${({ lightText }) => (lightText ? "#f7f8fa" : "#1c2237")};
 `;
 export const Heading2 = styled.h1`
-  margin: auto;
-  margin-bottom: 1rem;
+  margin: 18% auto 0;
+  /* margin-bottom: 1rem; */
   width: 80%;
   font-size: 4.2rem;
   line-height: 1.1;

@@ -4,9 +4,9 @@ export const homeObjOne = {
   lightTopLine: true,
   lightTextDesc: true,
   topLine: "Asabi Investments",
-  headline: "Driving impact in the fastest growing industries across Africa",
+  headline: "Asabi is keen to develop mission-aligned partnerships.",
   description:
-    "We take a holistic approach in sourcing deals and investments where a business is assessed based on the weighting of its financial viability alongside environmental and community development impact. ",
+    "As our society faces increasingly complex challenges, the answer to some of these pressing issues lies in alliances formed by organisations across the public sector and the private sector that use their diverse perspectives and resources to solve a societal problem and achieve a shared goal jointly.",
   buttonLabel: "Reach out",
   imgStart: "",
   img: "",

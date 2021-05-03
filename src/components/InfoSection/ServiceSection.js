@@ -13,12 +13,12 @@ const ServiceSection = () => {
             Asabi<span> Community</span> Health Center
           </h1>
           <p>
-            Asabi Community Health Centre (ACHC) was setup to bridge the
-            healthcare gap in Nigeria with a core focus on improving community
-            health outcomes amongst low-income and under resourced
-            neighbourhoods. Our first clinic, the Asabi Community Health Centre,
-            launches Q1 2022. ACHC’s data driven approach ensures that we
-            provide efficient, dynamic and preventative healthcare services.
+            Asabi Community Health Centre (ACHC) aims to bridge the healthcare
+            gap in Nigeria with a core focus on improving community health
+            outcomes amongst low-income and under-resourced neighbourhoods. Our
+            first clinic, the Asabi Community Health Centre, launches in Q1 of
+            2022. ACHC’s data-driven approach ensures that we provide efficient,
+            dynamic and preventative healthcare services.
           </p>
         </Header>
         <Service>
@@ -61,16 +61,16 @@ const ServiceSection = () => {
             <p>
               Many poor Nigerians do not have established relationships with
               healthcare providers because they cannot afford to. The Asabi
-              Community Health Centre is set to provide basic medical care
-              targeted at low-income residents of under resourced communities in
-              Ibadan, Nigeria.
+              Community Health Centre will provide primary medical care targeted
+              at low-income residents of under-resourced communities in Ibadan,
+              Nigeria.
             </p>
           </Content>
           <Content>
             <h5>Subscription based medical access</h5>
             <p>
               Provides free to affordable medical care to low resource
-              communities in Ibadan Subscription based medical access ensures
+              communities in Ibadan. Subscription-based medical access ensures
               self-accountability for patients’ health and ultimately enhance
               the promotion of preventive health practices
             </p>
